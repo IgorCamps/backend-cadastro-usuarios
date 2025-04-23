@@ -2,7 +2,7 @@
 
 API RESTful para cadastro básico de usuários com **Node.js + Express + MongoDB**.
 
-## 🛠️ Tecnologias
+## Tecnologias
 - **Node.js** (v18+)
 - **Express** (Framework web)
 - **MongoDB Atlas** (Banco de dados na nuvem)
@@ -48,7 +48,7 @@ Response (201 Created):
 ```json
   {
   "name": "Fulano da Silva",
-  "email": fulano@exemplo.com,
+  "email": "fulano@exemplo.com",
   "age": "18"
   }
 ```
@@ -58,7 +58,7 @@ Response (200 OK):
 [
   {
     "name": "Fulano da Silva",
-    "email": fulano@exemplo.com,
+    "email": "fulano@exemplo.com",
     "age": "18"
   }
 ]
@@ -71,7 +71,7 @@ PUT `/usuarios/:id` - Atualiza um usuário
 ```json
   {
     "name": "Fulano dos Santos",
-    "email": fulano@exemplo.com,
+    "email": "fulano@exemplo.com",
     "age": "20"
   }
 ```
